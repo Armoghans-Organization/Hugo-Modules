@@ -1,0 +1,24 @@
+<!-- ======================================================================== -->
+<!-- =========================== Site Description =========================== -->
+<!-- ======================================================================== -->
+<!-- Meta tag for general site description -->
+<meta name="description" content="{{ .Site.description }}" />
+<!-- Open Graph meta tag for site description -->
+<meta itemprop="description" content="{{ .Site.description }}" />
+<!-- Open Graph meta tag for site description (Facebook) -->
+<meta property="og:description" content="{{ .Site.description }}" />
+<!-- Twitter meta tag for site description -->
+<meta name="twitter:description" content="{{ .Site.description }}" />
+
+<!-- ======================================================================== -->
+<!-- ========================= Article Description ========================== -->
+<!-- ======================================================================== -->
+<!-- Meta tag for article or page-specific description -->
+<!-- Note: Change `.Site.Params.description` to the appropriate parameter if needed -->
+<meta name="description" content="{{ .Site.Params.description }}" />
+<!-- Open Graph meta tag for article or page-specific description -->
+<meta itemprop="description" content="{{ .Site.Params.description }}" />
+<!-- Open Graph meta tag for article or page-specific description (Facebook) -->
+<meta property="og:description" content="{{ .Site.Params.description }}" />
+<!-- Twitter meta tag for article or page-specific description -->
+<meta name="twitter:description" content="{{ .Site.Params.description }}" />
